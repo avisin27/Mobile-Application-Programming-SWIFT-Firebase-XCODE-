@@ -1,0 +1,39 @@
+You need to use your assignment 3 for this assignment and use Firebase for login authentication/reviews for movies
+
+Movie information must be downloaded from API
+
+User credentials/profiles must be created/saved in Firebase
+
+Users' reviews must be saved in Firebase and fetched into master/detail screens
+
+Login Screen for login or regster / Profile Editing Screen
+if successfully logged in, display the list of movies fetched from API
+if successfully registered, display profile screen to add profile image and other information
+profile image must be selected and uploaded intofirebase
+if not selected, use default image for profile image
+at least 3 more information in addition to profile image
+if you use the same login/profile controller as mine, you will lose points
+
+Master/Detail flow
+Master View (TableView)
+poster icon, title, # of reviews for each movie if they exist
+Detail View (either TableView or CollectionView)
+There must be multiple sections; for example, first section is for movie information from API and second section is for reviews from Firebase
+Reviews can be written by multiple logged users
+user name, review written by the user, # of like or dislike tapped by other users
+review cell must be designed with at least
+user name
+review text
+like/dislike buttons and number for each
+review can be edited/deleted only by author
+Navigation bar must show user information (profile icon and name)
+when tapped, Profile Screen should be launched to edit
+
+Firebase Auth, Database, and Storage
+Authentication
+Database -- realtime update
+design your own review data model
+Storage to save profile images
+in demo video, show your Firebase update for each action
+
+Quality of App and Design (20%)
