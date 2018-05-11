@@ -1,0 +1,36 @@
+Create TMDB account for Movie List App
+
+You need to create an account for TMDB (https://www.themoviedb.org) and get your own API key (https://developers.themoviedb.org/3/getting-started).
+You can load movie data information with your API key with the following urls:
+Get Now Playing :    http://api.themoviedb.org/3/movie/now_playing?api_key=<<api_key>>
+Get Popular         :    http://api.themoviedb.org/3/movie/popular?api_key=<<api_key>>
+Get Top Rated     :    http://api.themoviedb.org/3/movie/top_rated?api_key=<<api_key>>
+Get Upcoming     :    http://api.themoviedb.org/3/movie/upcoming?api_key=<<api_key>>
+Each movie entry has a field called “poster_path” or , which is where you should download the picture for the movies.
+URI: http://image.tmdb.org/t/p/<<size>>/<<poster_path>>"; // size : "w92", "w154", "w185", "w342", "w500", "w780", or "original".
+Create Movie List App
+
+Quality of Design (20%)
+Auto Layout constraint (No Storyboard allowed, all in code)
+in demo video, show both in X and smaller screen
+Master/Detail flow
+master view must be tableview
+create your own custom cell
+fetch movie list from TMDB server through Json downloading
+at least show small image of poster, title 
+download image from the poster link
+select a movie by tapping a row, then load detail view of your design.
+delete a movie with swiping action
+detail view
+customize/design your detail view
+title, rating, description, ...
+rating must be visual (not text)
+download movie detail from TMDB with id of Movie
+must show poster/backdrop images within a collection view and make swiping action
+download images from the server (NO local image)
+use 2 poster/backdrop images to manipulate >= 4 collectionview items
+
+MVC design pattern!
+define your model for fetching Movie Json data
+movie list/movie detail 
+must be Decodable (No need to parse JSON data)
