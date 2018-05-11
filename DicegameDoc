@@ -1,0 +1,25 @@
+Develop an iOS Dice Game application.
+
+The first screen must be your game
+you don't need to do the same game as mine
+You have to add outlets and actions connected to your screen and view controller
+at least, game score and round # must be updated and displayed after each play
+at least, start over (reset) and play buttons must have corresponding actions
+must implement Alert Event Handling
+waiting for the "alert dismissed"
+example:
+
+Add two more screens: one for game instruction and rules and another for author (you can reuse your first assignment)
+use segue to connect screens
+use dismiss method to go back 
+design screens with the same theme as the main game screen
+Use random number generator for rolled dice
+Use multiple dice (>= 2)
+the number is up to you (multiple image views)
+you don't need to do the exact same game as I showed in the class
+each rolled number (generated random number) must be shown with a corresponding image
+Implement your own game rules for score
+Your screen design is the matter!!!
+Create your own Icon
+Apply Auto Layout
+must be shown in different screen size (X or SE)
